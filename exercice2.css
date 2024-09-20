@@ -1,7 +1,32 @@
 img {
-    background-image:url("images/landscape-road-mountains-600nw-2465573769.webp");
-    max-height: 256px;
-    max-height: 256px;
-    padding-left: 16px;
-    padding-right:16px ;
+    
+        background-image: url('images/landscape-road-mountains-600nw-2465573769.webp'); 
+}
+body {
+    font-family: Arial, sans-serif;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #000000;
+    color: white;
+}
+.total-row {
+    background-color: rgb(24, 116, 24);
+}
+.grand-total-row {
+    background-color: rgb(46, 241, 183);
+}
+h1 {
+    text-align: center;
+    color: black;
 }
